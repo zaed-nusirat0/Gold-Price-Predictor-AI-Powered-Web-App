@@ -50,37 +50,20 @@ The app will be accessible at http://127.0.0.1:8000/.
 Contributing
 Fork the repository, create a branch, make changes, and submit a pull request.
 
+
+
 Docker Image Usage
 Pull Image:
 
 bash
 docker pull zaidtech/gold_price_prediction:latest
+
+
+
+
+
+
 Run Container:
 bash
 docker run -d -p 8000:8000 --name price_prediction zaidtech/gold_price_prediction:latest
 
-
-Project Structure
-app.py: Main application.
-Dockerfile: Docker configuration.
-requirements.txt: Dependencies.
-model.pkl: Pre-trained model.
-data/: Dataset directory.
-Important Notes
-Predictions are based on historical data and may not reflect sudden market changes.
-For production, use a more robust server like Gunicorn.
-Bash Scripts
-build_image.sh: Builds the Docker image.
-run_container.sh: Runs the Docker container.
-start_local.sh: Runs the app locally without Docker.
-Docker Hub Push
-Log in, tag, and push the image to Docker Hub:
-
-
-
-bash
-
-docker login
-docker tag gold_price_prediction:latest zaidtech/gold_price_prediction:tagname
-docker push zaidtech/gold_price_prediction:tagname
-csharp
