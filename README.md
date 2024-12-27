@@ -37,5 +37,11 @@ The **Gold Price Prediction AI-Powered Web Application** is an innovative tool d
 
 
 # **Install Dependencies:
-```bash
-Navigate to the project directory and install the required dependencies by runnin
+  ```bash
+    cd Gold-Price-Predictor-AI-Powered-Web-App
+    pip install -r requirements.txt
+
+# ** Run the Application: Start the Flask application locally by running:
+ ```bash
+  python app.py
+ 
