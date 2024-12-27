@@ -1,5 +1,5 @@
 
-![](![Screenshot from 2024-12-28 02-32-15](https://github.com/user-attachments/assets/770c5b12-f3b7-48ac-884f-9d0362f4bea1))
+(![Screenshot from 2024-12-28 02-32-15](https://github.com/user-attachments/assets/770c5b12-f3b7-48ac-884f-9d0362f4bea1))
 
 
 # **Gold Price Prediction AI-Powered Web Application**
