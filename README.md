@@ -34,3 +34,8 @@ The **Gold Price Prediction AI-Powered Web Application** is an innovative tool d
 
    ```bash
    git clone https://github.com/zaed-nusirat0/Gold-Price-Predictor-AI-Powered-Web-App.git
+
+
+# **Install Dependencies:
+```bash
+Navigate to the project directory and install the required dependencies by runnin
