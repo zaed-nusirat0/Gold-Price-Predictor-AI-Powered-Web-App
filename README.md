@@ -30,15 +30,13 @@ Navigate to the project directory and install dependencies:
 bash
 cd Gold-Price-Predictor-AI-Powered-Web-App
 pip install -r requirements.txt
-(Optional) Run the application locally:
+Run the application:
 
 bash
 python app.py
-The app will run at http://127.0.0.1:5000/.
+The app runs on http://127.0.0.1:5000/.
 
 Running with Docker
-To deploy with Docker, follow these steps:
-
 Build Docker image:
 
 bash
@@ -53,14 +51,15 @@ Contributing
 Fork the repository, create a branch, make changes, and submit a pull request.
 
 Docker Image Usage
-Pull Image from Docker Hub:
+Pull Image:
 
 bash
 docker pull zaidtech/gold_price_prediction:latest
-Run Docker container from pulled image:
-
+Run Container:
 bash
 docker run -d -p 8000:8000 --name price_prediction zaidtech/gold_price_prediction:latest
+
+
 Project Structure
 app.py: Main application.
 Dockerfile: Docker configuration.
@@ -75,9 +74,13 @@ build_image.sh: Builds the Docker image.
 run_container.sh: Runs the Docker container.
 start_local.sh: Runs the app locally without Docker.
 Docker Hub Push
-To push the image to Docker Hub:
+Log in, tag, and push the image to Docker Hub:
+
+
 
 bash
+
 docker login
 docker tag gold_price_prediction:latest zaidtech/gold_price_prediction:tagname
 docker push zaidtech/gold_price_prediction:tagname
+csharp
