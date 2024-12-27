@@ -1,3 +1,7 @@
+
+![Gold Price Prediction](images/gold-price-prediction.png)
+
+
 # **Gold Price Prediction AI-Powered Web Application**
 
 ## **Overview**
